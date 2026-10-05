@@ -1,0 +1,157 @@
+body{
+	margin: 0;
+	background-image: url('../images/piratepapertexture.jpeg');
+	background-size: cover;
+}
+
+h1{
+	color: darkred;
+	font-family: "Pirata One";
+	font-size: 70px;
+	text-align: center;
+	transition: transform .3s ease;
+}
+
+h1:hover{
+	transform: translateY(-10px);
+}
+
+h2{
+	color: darkred;
+	font-family: "Pirata One";
+	font-size: 50px;
+	text-align: center;
+	margin-top: 70px;
+	margin-bottom: 30px;
+	transition: transform .3s ease;
+}
+
+h2:hover{
+	transform: translateY(-10px);
+}
+
+h3{
+	color:saddlebrown;
+	font-family: "Pirata One";
+	font-size: 32px;
+	text-align: center;
+}
+h4{
+	font-family: "Nova Round", system-ui;
+	font-size: 20px;
+	text-align: center;
+	color: saddlebrown;
+}
+h5{
+	font-family: "Pirata One";
+	font-size: 40px;
+	text-align: center;
+	color: saddlebrown;
+	transition: transform .3s ease;
+}
+h5:hover{
+	font-size: 45px;
+	font-size-adjust: 20px;
+}
+
+body{
+	background-color: beige;
+	font-family: "Nova Round", system-ui;
+}
+footer{
+	padding-top: 30px;
+	padding-bottom: 10px;
+	font-size: 12px;
+	text-align: center;
+}
+
+span{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	position: relative;
+	display: inline-block;
+	text-decoration: none;
+	z-index: 1;
+}
+span::before{
+	content: '';
+	position: absolute;
+	color: darkred;
+	top: 50%;
+	left: 50%;
+	width: 100%;
+	height: 100%;
+	border: 2px solid;
+	border-radius: 50%;
+
+	transform: translate(-50%, -50%)scale(0);
+
+	transition: transform 0.3s ease, opacity 0.3s ease;
+	z-index: -1;
+	opacity: 0;
+}
+span:hover::before{
+	transform: translate(-50%, -50%)scale(1.1);
+	opacity: 1;
+}
+
+
+.flu{
+	width: 50%;
+	border: 20%;
+	margin-inline: auto;
+}
+
+.lecture{
+	width: 50%;
+	border: 20%;
+	margin-inline: auto
+}
+.therapy{
+	width: 50%;
+	border: 20%;
+	margin-inline: auto
+}
+
+.alphabet{
+	font-family: "Pirata One";
+	font-size: 40px;
+	text-align: center;
+	color: saddlebrown;
+}
+
+.def{
+	width: 70%;
+	border: 20%;
+	margin-inline: auto
+}
+
+.bodycopy{
+	width: 70%;
+	border: 20%;
+	margin-inline: auto
+}
+
+.navbar{
+	align-items: center;
+	background-color: black;
+	padding: 5px;
+	border: 35%;
+}
+
+.nav-links{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 24px;
+}
+
+a{
+	text-decoration: none;
+	color: yellow;
+}
